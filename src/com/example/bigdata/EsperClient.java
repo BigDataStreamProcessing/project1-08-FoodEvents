@@ -25,8 +25,8 @@ public class EsperClient {
         int noOfRecordsPerSec;
         int howLongInSec;
         if (args.length < 2) {
-            noOfRecordsPerSec = 2;
-            howLongInSec = 5;
+            noOfRecordsPerSec = 1;
+            howLongInSec = 20;
         } else {
             noOfRecordsPerSec = Integer.parseInt(args[0]);
             howLongInSec = Integer.parseInt(args[1]);
@@ -104,7 +104,7 @@ public class EsperClient {
             epCompiled = compiler.compile("""
                     @public @buseventtype create json schema FoodEvent(ean string, dish string, quantity int,
                         bought_accepted string, shop string, its string, ets string);
-                    @name('answer') SELECT ean, dish, quantity, shop, ets, its
+                    @name('answer') SELECT *
                     FROM FoodEvent#ext_timed(java.sql.Timestamp.valueOf(its).getTime(), 3 sec);
                     """, compilerArgs);
 

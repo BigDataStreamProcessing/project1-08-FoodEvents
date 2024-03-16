@@ -77,7 +77,7 @@ Wyniki powinny zawierać, następujące kolumny:
 
 ## Zadanie 5
 
-Wykrywaj serie co najmniej dwóch sprzedaży, do momentu wystąpienia zdarzenia (sprzedaży lub zakupu) w sklepie 'Lidl'. Ogranicz wykryte serie tylko do takich, w których różnica w liczbie dań zdarzeniem w Lidlu a sprzedażą w pierwszym sklepie jest większa od 1.
+Wykrywaj serie co najmniej dwóch sprzedaży, do momentu wystąpienia zdarzenia (sprzedaży lub zakupu) w sklepie 'Lidl'. Ogranicz wykryte serie tylko do takich, w których różnica w liczbie dań pomiędzy zdarzeniem w Lidlu a sprzedażą w pierwszym sklepie jest większa od 1.
 
 Wyniki powinny zawierać, następujące kolumny:
 - `quantity_diff` - różnica w sprzedaży pomiędzy pierwszą sprzedażą w serii a zdarzeniem 'lidl' 
