@@ -80,7 +80,7 @@ Wyniki powinny zawierać, następujące kolumny:
 Wykrywaj serie co najmniej dwóch sprzedaży, do momentu wystąpienia zdarzenia (sprzedaży lub zakupu) w sklepie 'Lidl'. Ogranicz wykryte serie tylko do takich, w których różnica w liczbie dań pomiędzy zdarzeniem w Lidlu a sprzedażą w pierwszym sklepie jest większa od 1.
 
 Wyniki powinny zawierać, następujące kolumny:
-- `quantity_diff` - różnica w sprzedaży pomiędzy pierwszą sprzedażą w serii a zdarzeniem 'lidl' 
+- `quantity_diff` - różnica w sprzedaży pomiędzy zdarzeniem 'w Lidlu' a pierwszą sprzedażą w serii
 - `shop` - nazwa sklepu pierwszej sprzedaży w serii
 - `ets` - czas rejestracji pierwszej sprzedaży w serii
 
