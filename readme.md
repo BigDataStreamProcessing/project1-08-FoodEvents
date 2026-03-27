@@ -111,7 +111,9 @@ Dla każdego sklepu wykrywaj serie co najmniej trzech zdarzeń,
 w których liczba towarów każdorazowo będzie się zwiększała. 
 Seria ma kończyć się przed zdarzeniem, którego liczba towarów 
 będzie mniejsza niż liczba towarów w zdarzeniu go poprzedzającym.
-Wynik obejmuje dane z tylko trzech pierwszych zdarzeń.
+Raportuj tylko serie, w których łączna suma towarów wszystkich
+zdarzeń przekracza 100.
+Wynik obejmuje dane z tylko trzech pierwszych zdarzeń serii.
 
 Wyniki powinny zawierać, następujące kolumny:
 - `shop` - nazwa sklepu
