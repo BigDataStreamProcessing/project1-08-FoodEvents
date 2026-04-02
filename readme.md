@@ -108,7 +108,9 @@ Wyniki powinny zawierać, następujące kolumny:
 
 ## Zadanie 7
 Dla każdego sklepu wykrywaj serie co najmniej trzech zdarzeń, 
-w których liczba towarów każdorazowo będzie się zwiększała. 
+w których liczba towarów każdorazowo będzie się zwiększała 
+(od drugiego zdarzenia liczba towarów jest mniejsza niż 
+w przypadku zdarzenia poprzedniego). 
 Seria ma kończyć się przed zdarzeniem, którego liczba towarów 
 będzie mniejsza niż liczba towarów w zdarzeniu go poprzedzającym.
 Raportuj tylko serie, w których łączna suma towarów wszystkich
